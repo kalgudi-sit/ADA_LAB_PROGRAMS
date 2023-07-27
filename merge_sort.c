@@ -47,7 +47,7 @@ int main() {
     for(int i = 0;i<10;i++) {
         printf("%d ", arr[i]);
     }
-    printf("\n");
+    printf("\nSORTED ARRAY\n");
     merge_sort(arr,0,9);
     for(int i = 0;i<10;i++) {
         printf("%d ", arr[i]);
